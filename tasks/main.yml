@@ -1,12 +1,4 @@
 ---
-- name: (Debian) install vagrant...
-  when: ansible_os_family == 'Debian'
-  include: Debian.yml
-
-- name: (RedHat) install vagrant...
-  when: ansible_os_family == 'RedHat'
-  include: RedHat.yml
-  
 - name: install vagrant plugins
   shell: vagrant plugin install {{item}}
   with_items:

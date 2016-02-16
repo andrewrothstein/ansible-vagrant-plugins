@@ -1,7 +1,7 @@
 ---
 galaxy_info:
   author: Andrew Rothstein
-  description: vagrant role
+  description: vagrant plugins role
   company: BlackRock
   license:
     - MIT
